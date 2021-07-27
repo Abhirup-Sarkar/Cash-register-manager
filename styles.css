@@ -1,0 +1,19 @@
+*{
+    margin:0rem;
+    padding: 0rem;
+}
+.container{
+    margin: auto;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid black;
+}
+.hero-heading{
+    font-size: 25px;
+    padding: 2rem;
+}
+.hero__text{
+    margin: 0rem 5rem;
+    font-size: 20px;
+}
