@@ -20,17 +20,19 @@
 label{
     margin-top: 1rem;
     display:block;
-    font-size: large;
+    font-size: 20px;
 }
-#bill{
+#bill-amount__box{
     height:50px;
     width: 400px;
     margin: 0.5rem 1rem 1rem 1rem;
+    text-align: center;
+    font-size:20px;
 }
-#next{
+#next-button{
     height:40px;
     width: 80px;
-    font-size: medium;
+    font-size: 20px;
     font-weight: bolder;
     border: 1px solid black;
     border-radius: 5px;
