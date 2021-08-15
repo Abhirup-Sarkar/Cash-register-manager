@@ -1,4 +1,4 @@
-var bill = document.querySelector("#bill-amount__box");
+var billAmount = document.querySelector("#bill-amount__box");
 var nextButton = document.querySelector("#next-button");
 
 
