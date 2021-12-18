@@ -7,11 +7,11 @@ var cashGiven = document.querySelector("#cash-given")
 function billAmountHandler() {
     if (billAmount.value > 0) {
         if(cashGiven.value >= billAmount.value){
-            var returnChangeAmount = (cashGiven.value - billAmount.value)
-            console.log(returnChangeAmount)
+            var returnChangeAmount = (cashGiven.value - billAmount.value);
+            console.log(returnChangeAmount);
         }
         else{
-            console.log("You have paid less cash than the bill amount")
+            console.log("You have paid less cash than the bill amount");
         }   
     } 
     else {
