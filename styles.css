@@ -1,30 +1,30 @@
-/* * {
+* {
     margin: 0rem;
     padding: 0rem;
 }
 
 .container {
-    margin: auto;
+    
     text-align: center;
-    height: fit-content;
-    width: fit-content;
-    border: 1px solid black;
+    margin:1rem;
+    
+    
 }
 
 .hero-heading {
-    font-size: 25px;
-    padding: 2rem;
+    font-size: 2.5rem;
+    padding: 4rem 1rem 1.5rem 1rem;
 }
 
-.hero__text {
-    margin: 0rem 5rem;
-    font-size: 20px;
+.hero_text {
+    
+    font-size: 1.2rem;
 }
 
 label {
-    margin-top: 1rem;
+    margin: 1.5rem 1rem 1rem 1.5rem;
     display: block;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 #bill-amount__box {
@@ -66,4 +66,4 @@ label {
 .return-change{
     margin:auto;
     text-align: center;
-} */
+}
