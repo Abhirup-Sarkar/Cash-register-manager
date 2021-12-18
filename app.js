@@ -1,22 +1,30 @@
 var billAmount = document.querySelector("#bill-amount");
 var btnReturnChange = document.querySelector("#btn-return-change");
-var cashGiven = document.querySelector("#cash-given")
+var cashGiven = document.querySelector("#cash-given");
+var errorMessage = document.querySelector("#error-message");
 
 
 
 function billAmountHandler() {
+    errorMessage.style.display = "none";
     if (billAmount.value > 0) {
+        
         if(cashGiven.value >= billAmount.value){
             var returnChangeAmount = (cashGiven.value - billAmount.value);
             console.log(returnChangeAmount);
         }
         else{
-            console.log("You have paid less cash than the bill amount");
+            showMessage("You have paid less cash than the bill amount.\n DO YOU WANNA WASH PLATES???");
         }   
     } 
     else {
-        console.log("Please enter a valid amount");
+        showMessage("Please enter a valid amount");
     }
     
+}
+function calculateChange(){}
+function showMessage(message){
+    errorMessage.style.display = "block";
+    errorMessage.innerText = message;
 }
 btnReturnChange.addEventListener("click", billAmountHandler)
