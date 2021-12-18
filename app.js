@@ -3,7 +3,7 @@ var btnReturnChange = document.querySelector("#btn-return-change");
 var cashGiven = document.querySelector("#cash-given");
 var errorMessage = document.querySelector("#error-message");
 
-
+var denominationOfNotes = [2000,500,100,20,10,5,1];
 
 function billAmountHandler() {
     errorMessage.style.display = "none";
