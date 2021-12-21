@@ -22,48 +22,41 @@
 }
 
 label {
-    margin: 1.5rem 1rem 1rem 1.5rem;
+    margin: 2rem 1rem rem 1.5rem;
+    padding: 1rem;
     display: block;
     font-size: 1.2rem;
 }
-
-#bill-amount__box {
-    height: 50px;
-    width: 400px;
-    margin: 0.5rem 1rem 1rem 1rem;
-    text-align: center;
-    font-size: 20px;
-}
-
-#next-button {
-    height: 40px;
-    width: 80px;
-    font-size: 20px;
-    font-weight: bolder;
+input{
+    display: block;
+    margin: auto;
+    padding: 0.5rem;
     border: 1px solid black;
     border-radius: 5px;
-    margin: 1rem;
     
 }
-#cash-given__box{
-    height: 50px;
-    width: 400px;
-    margin: 0.5rem 1rem 1rem 1rem;
-    text-align: center;
-    font-size: 20px;
 
-}
-#check-button{
+#btn-return-change{
     height: 40px;
-    width: 80px;
-    font-size: 20px;
-    font-weight: bolder;
+    width: 100px;
+    font-size: 1.2rem;
+    
     border: 1px solid black;
     border-radius: 5px;
-    margin: 1rem;
+    margin: 2rem 0rem 2rem 0rem;
     
 }
 .return-change{
-    margin:auto;
+    margin: auto;
+    
+    
+    
+}
+.caption-return-change{
+    
+    font-size: 1.2rem;
     text-align: center;
+    padding: 1rem;
+    margin:0.5rem;
+    
 }
